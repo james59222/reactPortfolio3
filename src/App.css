@@ -1,0 +1,140 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+li{
+  margin: 15px;
+
+}
+.Header {
+  background-color: aquamarine;width: 100%;height: 100%;
+  font-size: large;
+  font-family: "Roboto Slab";
+  justify-content: flex;
+}
+.aboutMe {
+  background-color: #83c5be;width: 100%;height: 100%;
+  display: flex;
+  font-size: 20px;
+  margin: auto;
+  justify-content: flex-start;
+  padding: 5.5rem;
+  text-align: left;
+  font-family: "Roboto Slab";
+  
+  }
+  .Contact {
+    background-color:#fbcaefff;width: 100%;height: 100%;
+    font-family: "Roboto Slab";
+    /* display: flex;
+    font-size: 20px;
+    margin: 100px;
+    justify-content: flex-start;
+    padding: 5.5rem;
+    text-align: left;
+     */
+    }
+    .resumeHeader{
+      text-align: center;
+    }
+    .resume {
+      background-color: #a2d2ff;width: auto;height: auto;
+      display: flex;
+      font-size: 15px;
+      margin: auto;
+      justify-content: flex-start;
+      padding: 5.5rem;
+      text-align: left;
+      font-family: "Roboto Slab";
+      
+      }
+    .About{
+        background-color: #83c5be;width: 100%;height: 100%;
+        font-family: "Roboto Slab";
+      }
+    .wk2challenge {
+    font-size: medium;
+    margin:auto;
+    display:flexbox;
+    justify-content:last baseline;
+    padding: 5.5rem;
+    flex-direction: row;
+  }
+  .thumbnail { 
+    top:-50px; 
+    left:35px; 
+    display:flexbox; 
+    z-index:999; 
+    cursor: pointer; 
+    padding: .5rem;
+    flex-direction: column-reverse;
+    
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    } 
+    
+   
+    .thumbnail:hover { 
+    transform: scale(2); }
+    
+    .backgroundContacts {
+      background-color:e9c46a;width: 100%;height:100%;
+    }
+    .Portfolio {
+      background-color: #fefae0;width: 100%;height:100%;
+      font-family: "Roboto Slab";
+
+     
+    }
+    .Footer {
+      background-color:#FAA275;width: 100%;height:100%;
+
+    }
+    .resumeTitle{
+      font-family: "Roboto Slab";
+    }
+  
