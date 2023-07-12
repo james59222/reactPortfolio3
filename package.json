@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://james59222.github.io/reactPorfolio",
+  "homepage": "https://james59222.github.io/reactPorfolio3",
   "private": true,
   "dependencies": {
     "@fontsource/roboto-slab": "^5.0.5",
